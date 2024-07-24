@@ -1,0 +1,35 @@
+1) Decision tree (Undersampling data)
+TRAINING DATA-:
+ precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4963
+           1       1.00      1.00      1.00      4988
+
+    accuracy                           1.00      9951
+   macro avg       1.00      1.00      1.00      9951
+weighted avg       1.00      1.00      1.00      9951
+
+Testing data-:
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81      2145
+           1       0.80      0.82      0.81      2120
+
+    accuracy                           0.81      4265
+   macro avg       0.81      0.81      0.81      4265
+weighted avg       0.81      0.81      0.81      4265
+[[1724  421]
+ [ 386 1734]]
+
+2) prepruning is not doing great
+3) DT (POST PRUNING)
+precision    recall  f1-score   support
+
+           0       0.73      0.86      0.79      2145
+           1       0.82      0.68      0.74      2120
+
+    accuracy                           0.77      4265
+   macro avg       0.78      0.77      0.76      4265
+weighted avg       0.78      0.77      0.76      4265
+[[1838  307]
+ [ 688 1432]]

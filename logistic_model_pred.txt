@@ -1,0 +1,54 @@
+1) for logistic model (without balanced dataset):
+ precision    recall  f1-score   support
+
+           0       0.81      0.98      0.89      7622
+           1       0.74      0.16      0.26      2153
+
+    accuracy                           0.80      9775
+   macro avg       0.77      0.57      0.57      9775
+weighted avg       0.79      0.80      0.75      9775
+
+1.A) for logistic model (UNDERSAMPLING):
+
+TRAINING DATA-:
+precision    recall  f1-score   support
+
+           0       0.75      0.72      0.73      4963
+           1       0.73      0.76      0.75      4988
+
+    accuracy                           0.74      9951
+   macro avg       0.74      0.74      0.74      9951
+weighted avg       0.74      0.74      0.74      9951
+
+testing data-: 
+pprecision    recall  f1-score   support
+
+           0       0.73      0.69      0.71      2145
+           1       0.70      0.75      0.72      2120
+
+    accuracy                           0.72      4265
+   macro avg       0.72      0.72      0.72      4265
+weighted avg       0.72      0.72      0.72      4265
+
+
+
+1.B) for logistic model (OVERSAMPLING)
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.66      0.71      7569
+           1       0.71      0.79      0.75      7715
+
+    accuracy                           0.73     15284
+   macro avg       0.73      0.73      0.73     15284
+weighted avg       0.73      0.73      0.73     15284
+
+1.C ) FOR LOGISTIC MODEL (Smote)
+              precision    recall  f1-score   support
+
+           0       0.90      0.77      0.83      7622
+           1       0.46      0.71      0.56      2153
+
+    accuracy                           0.75      9775
+   macro avg       0.68      0.74      0.69      9775
+weighted avg       0.81      0.75      0.77      9775
