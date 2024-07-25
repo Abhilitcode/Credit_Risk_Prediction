@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 import json 
 
-st.title('**Credit Risk Prediction**')
+st.title('**Credit Risk Prediction in Banking Industry**')
 
 with open('feature_dict.json', 'r') as fp:
     feature_dict = json.load(fp)
